@@ -110,7 +110,7 @@
 
         softoff_combo {
             bindings = <&soft_off>;
-            key-positions = <14 28 40>;
+            key-positions = <14 28 40 24 36 50>;
         };
 
         momentary_bluetooth_layer_combo {

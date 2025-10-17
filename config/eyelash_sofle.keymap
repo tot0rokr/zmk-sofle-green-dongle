@@ -213,11 +213,11 @@
 
         LThumbLayer {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans       &trans     &kp KP_NUMLOCK   &trans           &trans           &trans            &trans             &trans
-&trans  &trans     &trans     &trans     &kp LC(R)  &trans       &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &trans       &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS         &kp EQUAL          &kp GRAVE
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans            &kp BSLH           &trans
-&trans  &mkp RCLK  &mkp MCLK  &mkp MB4   &mkp MB5   &trans       &mkp RCLK  &trans           &kp KP_NUMBER_0  &trans           &trans            &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &trans     &trans  &trans  &trans  &trans            &trans             &trans
+&trans  &trans     &trans     &trans     &kp LC(R)  &trans       &trans     &kp N7  &kp N8  &kp N9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &trans       &trans     &kp N4  &kp N5  &kp N6  &kp MINUS         &kp EQUAL          &kp GRAVE
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &trans     &kp N1  &kp N2  &kp N3  &trans            &kp BSLH           &trans
+&trans  &mkp RCLK  &mkp MCLK  &mkp MB4   &mkp MB5   &trans       &mkp RCLK  &trans  &kp N0  &trans  &trans            &trans
             >;
 
             display-name = "LThumbLayer";

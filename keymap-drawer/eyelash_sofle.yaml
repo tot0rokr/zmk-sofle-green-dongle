@@ -405,3 +405,7 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [30, 28]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [36, 37]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [27, 28]
+  k: $$mdi:apple-keyboard-shift$$

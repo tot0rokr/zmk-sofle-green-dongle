@@ -130,7 +130,7 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <36 37>;
+            key-positions = <36 34>;
         };
 
         backspace2_combo {
@@ -140,7 +140,7 @@
 
         enter2_combo {
             bindings = <&kp ENTER>;
-            key-positions = <27 28>;
+            key-positions = <30 28>;
         };
     };
 

@@ -397,17 +397,24 @@ combos:
   k: BluetoothLayer
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [NormalLayer, JoystickLayer]
 - p: [57, 56]
   k: FunctionLayer
 - p: [36, 34]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [NormalLayer, JoystickLayer]
 - p: [30, 29]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [NormalLayer, JoystickLayer]
 - p: [30, 28]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [NormalLayer, JoystickLayer]
 - p: [36, 35]
   k: $$mdi:apple-keyboard-shift$$
+  l: [NormalLayer, JoystickLayer]
 - p: [28, 29]
   k: $$mdi:apple-keyboard-shift$$
+  l: [NormalLayer, JoystickLayer]
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
+  l: [NormalLayer, JoystickLayer]

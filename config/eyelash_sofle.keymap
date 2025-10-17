@@ -142,6 +142,16 @@
             bindings = <&kp ENTER>;
             key-positions = <30 28>;
         };
+
+        shift_combo {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <36 37>;
+        };
+
+        shift2_combo {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <27 28>;
+        };
     };
 
     macros {

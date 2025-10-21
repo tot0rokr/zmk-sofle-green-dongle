@@ -57,11 +57,11 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: LHomerowLayer}
   - {t: JoystickLayer, h: LThumbLayer}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', h: RThumbLayer}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: RHomerowLayer}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$

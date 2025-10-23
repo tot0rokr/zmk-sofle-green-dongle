@@ -195,7 +195,7 @@
 &kp TAB     &kp Q         &kp W     &kp E      &kp R                     &kp T                  &mmv MOVE_Y(200)   &kp Y                     &kp U                     &kp I      &kp O     &kp P       &none
 &kp LCTRL   &kp A         &kp S     &kp D      &kp F                     &kp G                  &mmv MOVE_X(-200)  &kp H                     &kp J                     &kp K      &kp L     &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z         &kp X     &kp C      &kp V                     &kp B                  &mmv MOVE_X(200)   &kp N                     &kp M                     &kp COMMA  &kp DOT   &kp SLASH   &kp RSHFT
-&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &kp SPACE  &layer_quick_tab 3 SPACE  &layer_hold_tap 6 4    &mkp LCLK          &layer_quick_tab 5 ENTER  &layer_quick_tab 2 SPACE  &kp SPACE  &kp RALT  &kp DELETE
+&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &kp SPACE  &layer_quick_tab 3 SPACE  &layer_hold_tap 6 4    &mkp LCLK          &layer_quick_tab 5 ENTER  &layer_quick_tab 1 SPACE  &kp SPACE  &kp RALT  &kp DELETE
             >;
 
             sensor-bindings = <&knob_mouse_scroll>;

@@ -133,6 +133,7 @@
         softoff_combo {
             bindings = <&soft_off>;
             key-positions = <14 28 40 24 36 50>;
+            timeout-ms = <100>;
         };
 
         momentary_bluetooth_layer_combo {
@@ -144,6 +145,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
             layers = <0 2>;
+            timeout-ms = <30>;
         };
 
         momentary_function_layer_combo {
@@ -153,26 +155,30 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <49 48>;
+            key-positions = <48 49>;
             layers = <2 0>;
+            timeout-ms = <30>;
         };
 
         backspace2_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 29>;
             layers = <0 2>;
+            timeout-ms = <30>;
         };
 
         enter2_combo {
             bindings = <&kp ENTER>;
             key-positions = <41 42>;
             layers = <0 2>;
+            timeout-ms = <30>;
         };
 
         esc_combo {
             bindings = <&kp ESC>;
             key-positions = <15 16>;
             layers = <0 2>;
+            timeout-ms = <30>;
         };
     };
 

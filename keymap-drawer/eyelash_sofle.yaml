@@ -340,11 +340,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+R
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F15
+  - F12
+  - F11
+  - F10
+  - F9
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -353,11 +353,11 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+A
-  - Ctl+S
-  - Ctl+D
-  - Ctl+F
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F14
+  - F8
+  - F7
+  - F6
+  - F5
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -366,11 +366,11 @@ layers:
   - {t: '=', s: +}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+B
+  - F13
+  - F4
+  - F3
+  - F2
+  - F1
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -447,8 +447,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -658,8 +658,6 @@ combos:
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [NormalLayer, NormalLayer, JoystickLayer]
-- p: [57, 56]
-  k: FunctionLayer
 - p: [34, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NormalLayer, NormalLayer, JoystickLayer]

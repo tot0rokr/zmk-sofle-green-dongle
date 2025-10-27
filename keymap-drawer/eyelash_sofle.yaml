@@ -670,3 +670,9 @@ combos:
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
   l: [NormalLayer, NormalLayer, JoystickLayer]
+- p: [47, 48]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [NormalLayer, NormalLayer, JoystickLayer]
+- p: [42, 43]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [NormalLayer, NormalLayer, JoystickLayer]

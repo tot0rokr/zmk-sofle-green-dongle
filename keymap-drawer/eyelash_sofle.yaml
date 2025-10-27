@@ -660,7 +660,7 @@ combos:
   l: [NormalLayer, NormalLayer]
 - p: [57, 56]
   k: FunctionLayer
-- p: [49, 48]
+- p: [48, 49]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NormalLayer, NormalLayer]
 - p: [30, 29]

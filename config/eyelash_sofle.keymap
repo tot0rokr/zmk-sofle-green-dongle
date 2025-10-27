@@ -155,7 +155,7 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <48 49>;
+            key-positions = <34 36>;
             layers = <2 0>;
             timeout-ms = <30>;
         };
@@ -169,7 +169,7 @@
 
         enter2_combo {
             bindings = <&kp ENTER>;
-            key-positions = <41 42>;
+            key-positions = <30 28>;
             layers = <0 2>;
             timeout-ms = <30>;
         };

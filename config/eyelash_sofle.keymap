@@ -148,11 +148,6 @@
             timeout-ms = <30>;
         };
 
-        momentary_function_layer_combo {
-            bindings = <&mo 7>;
-            key-positions = <57 56>;
-        };
-
         enter_combo {
             bindings = <&kp ENTER>;
             key-positions = <34 36>;

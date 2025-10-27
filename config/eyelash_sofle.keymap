@@ -273,11 +273,11 @@
 
         LThumbLayer {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans       &trans     &trans  &trans  &trans  &trans            &trans             &trans
-&trans  &trans     &trans     &trans     &kp LC(R)  &trans       &trans     &kp N7  &kp N8  &kp N9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &trans       &trans     &kp N4  &kp N5  &kp N6  &kp MINUS         &kp EQUAL          &kp GRAVE
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &trans     &kp N1  &kp N2  &kp N3  &trans            &kp BSLH           &trans
-&trans  &mkp RCLK  &mkp MCLK  &mkp MB4   &mkp MB5   &trans       &mkp RCLK  &trans  &kp N0  &trans  &trans            &trans
+&trans  &trans     &trans     &trans    &trans    &trans    &trans     &trans  &trans  &trans  &trans            &trans             &trans
+&trans  &kp F15    &kp F12    &kp F11   &kp F10   &kp F9    &trans     &kp N7  &kp N8  &kp N9  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp F14    &kp F8     &kp F7    &kp F6    &kp F5    &trans     &kp N4  &kp N5  &kp N6  &kp MINUS         &kp EQUAL          &kp GRAVE
+&trans  &kp F13    &kp F4     &kp F3    &kp F2    &kp F1    &trans     &kp N1  &kp N2  &kp N3  &trans            &kp BSLH           &trans
+&trans  &mkp RCLK  &mkp MCLK  &mkp MB4  &mkp MB5  &trans    &mkp RCLK  &trans  &kp N0  &trans  &trans            &trans
             >;
 
             display-name = "LThumbLayer";

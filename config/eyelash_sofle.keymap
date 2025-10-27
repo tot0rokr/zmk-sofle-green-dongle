@@ -144,7 +144,7 @@
         backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
-            layers = <0 2>;
+            layers = <0 2 4>;
             timeout-ms = <30>;
         };
 
@@ -156,28 +156,28 @@
         enter_combo {
             bindings = <&kp ENTER>;
             key-positions = <34 36>;
-            layers = <2 0>;
+            layers = <2 0 4>;
             timeout-ms = <30>;
         };
 
         backspace2_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 29>;
-            layers = <0 2>;
+            layers = <0 2 4>;
             timeout-ms = <30>;
         };
 
         enter2_combo {
             bindings = <&kp ENTER>;
             key-positions = <30 28>;
-            layers = <0 2>;
+            layers = <0 2 4>;
             timeout-ms = <30>;
         };
 
         esc_combo {
             bindings = <&kp ESC>;
             key-positions = <15 16>;
-            layers = <0 2>;
+            layers = <0 2 4>;
             timeout-ms = <30>;
         };
     };
@@ -197,11 +197,11 @@
 
         NormalLayer {
             bindings = <
-&tog 10     &kp N1        &kp N2    &kp N3                    &kp N4                                     &kp N5                 &mmv MOVE_Y(-200)  &kp N6                   &kp N7                                 &kp N8                    &kp N9    &kp N0      &tog 11
-&kp TAB     &kp Q         &kp W     &kp E                     &kp R                                      &kp T                  &mmv MOVE_Y(200)   &kp Y                    &kp U                                  &kp I                     &kp O     &kp P       &none
-&kp LCTRL   &kp A         &kp S     &kp D                     &kp F                                      &kp G                  &mmv MOVE_X(-200)  &kp H                    &kp J                                  &kp K                     &kp L     &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z         &kp X     &kp C                     &kp V                                      &kp B                  &mmv MOVE_X(200)   &kp N                    &kp M                                  &kp COMMA                 &kp DOT   &kp SLASH   &kp RSHFT
-&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &layer_quick_tab 3 SPACE  &homerow_retro_mods LEFT_SHIFT LEFT_SHIFT  &layer_hold_tap 6 4    &mkp LCLK          &layer_quick_tab 5 RALT  &homerow_mods RIGHT_SHIFT RIGHT_SHIFT  &layer_quick_tab 1 SPACE  &kp RALT  &kp DELETE
+&tog 10     &kp N1        &kp N2    &kp N3                    &kp N4          &kp N5                 &mmv MOVE_Y(-200)  &kp N6                   &kp N7           &kp N8                    &kp N9    &kp N0      &tog 11
+&kp TAB     &kp Q         &kp W     &kp E                     &kp R           &kp T                  &mmv MOVE_Y(200)   &kp Y                    &kp U            &kp I                     &kp O     &kp P       &none
+&kp LCTRL   &kp A         &kp S     &kp D                     &kp F           &kp G                  &mmv MOVE_X(-200)  &kp H                    &kp J            &kp K                     &kp L     &kp SEMI    &kp APOS
+&kp LSHFT   &kp Z         &kp X     &kp C                     &kp V           &kp B                  &mmv MOVE_X(200)   &kp N                    &kp M            &kp COMMA                 &kp DOT   &kp SLASH   &kp RSHFT
+&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &layer_quick_tab 3 SPACE  &kp LEFT_SHIFT  &layer_hold_tap 6 4    &mkp LCLK          &layer_quick_tab 5 RALT  &kp RIGHT_SHIFT  &layer_quick_tab 1 SPACE  &kp RALT  &kp DELETE
             >;
 
             sensor-bindings = <&knob_mouse_scroll>;

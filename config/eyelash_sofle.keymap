@@ -175,6 +175,20 @@
             layers = <0 2 4>;
             timeout-ms = <30>;
         };
+
+        delete_combo {
+            bindings = <&kp DEL>;
+            key-positions = <47 48>;
+            timeout-ms = <30>;
+            layers = <0 2 4>;
+        };
+
+        delete_combo2 {
+            bindings = <&kp DEL>;
+            key-positions = <42 43>;
+            timeout-ms = <30>;
+            layers = <0 2 4>;
+        };
     };
 
     macros {

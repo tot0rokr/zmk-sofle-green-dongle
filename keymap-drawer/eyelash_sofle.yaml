@@ -660,13 +660,13 @@ combos:
   l: [NormalLayer, NormalLayer]
 - p: [57, 56]
   k: FunctionLayer
-- p: [48, 49]
+- p: [34, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NormalLayer, NormalLayer]
 - p: [30, 29]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [NormalLayer, NormalLayer]
-- p: [41, 42]
+- p: [30, 28]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NormalLayer, NormalLayer]
 - p: [15, 16]

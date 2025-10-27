@@ -143,7 +143,7 @@
         backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
-            layers = <1 4>;
+            layers = <0 2>;
         };
 
         momentary_function_layer_combo {
@@ -153,38 +153,26 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <36 34>;
-            layers = <1 4>;
+            key-positions = <49 48>;
+            layers = <2 0>;
         };
 
         backspace2_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 29>;
-            layers = <1 4>;
+            layers = <0 2>;
         };
 
         enter2_combo {
             bindings = <&kp ENTER>;
-            key-positions = <30 28>;
-            layers = <1 4>;
-        };
-
-        shift_combo {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <36 35>;
-            layers = <1 4>;
-        };
-
-        shift2_combo {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <28 29>;
-            layers = <1 4>;
+            key-positions = <41 42>;
+            layers = <0 2>;
         };
 
         esc_combo {
             bindings = <&kp ESC>;
             key-positions = <15 16>;
-            layers = <1 4>;
+            layers = <0 2>;
         };
     };
 

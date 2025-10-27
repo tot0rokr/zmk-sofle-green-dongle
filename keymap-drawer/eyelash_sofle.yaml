@@ -657,18 +657,18 @@ combos:
   k: BluetoothLayer
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [NormalLayer, NormalLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer]
 - p: [57, 56]
   k: FunctionLayer
 - p: [34, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [NormalLayer, NormalLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer]
 - p: [30, 29]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [NormalLayer, NormalLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer]
 - p: [30, 28]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [NormalLayer, NormalLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer]
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
-  l: [NormalLayer, NormalLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer]

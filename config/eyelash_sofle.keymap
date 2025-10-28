@@ -244,11 +244,11 @@
 
         LHomerowLayer {
             bindings = <
-&trans   &trans    &trans     &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans    &trans     &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp LGUI  &kp LCTRL  &kp LALT  &kp LSHFT  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans    &trans     &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans    &trans     &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans         &trans         &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp LC(LA(Z))  &kp LC(LA(X))  &kp LC(LA(A))  &kp LA(LC(S))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp LGUI       &kp LCTRL      &kp LALT       &kp LSHFT      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans         &trans         &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans         &trans         &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "LHomerowLayer";

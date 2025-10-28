@@ -657,10 +657,10 @@ combos:
   k: BluetoothLayer
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [NormalLayer, NormalLayer, JoystickLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer, LThumbLayer]
 - p: [34, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [NormalLayer, NormalLayer, JoystickLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer, LThumbLayer]
 - p: [30, 29]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [NormalLayer, NormalLayer, JoystickLayer]
@@ -672,7 +672,7 @@ combos:
   l: [NormalLayer, NormalLayer, JoystickLayer]
 - p: [47, 48]
   k: $$mdi:backspace-reverse-outline$$
-  l: [NormalLayer, NormalLayer, JoystickLayer]
+  l: [NormalLayer, NormalLayer, JoystickLayer, LThumbLayer]
 - p: [42, 43]
   k: $$mdi:backspace-reverse-outline$$
   l: [NormalLayer, NormalLayer, JoystickLayer]

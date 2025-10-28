@@ -206,11 +206,11 @@
 
         NormalLayer {
             bindings = <
-&kp ESC     &kp N1        &kp N2    &kp N3                    &kp N4                                &kp N5                 &mmv MOVE_Y(-200)  &kp N6                   &kp N7                                 &kp N8                    &kp N9    &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q         &kp W     &kp E                     &kp R                                 &kp T                  &mmv MOVE_Y(200)   &kp Y                    &kp U                                  &kp I                     &kp O     &kp P       &none
-&kp LCTRL   &kp A         &kp S     &kp D                     &kp F                                 &kp G                  &mmv MOVE_X(-200)  &kp H                    &kp J                                  &kp K                     &kp L     &kp SEMI    &kp APOS
-&kp LCTRL   &kp Z         &kp X     &kp C                     &kp V                                 &kp B                  &mmv MOVE_X(200)   &kp N                    &kp M                                  &kp COMMA                 &kp DOT   &kp SLASH   &kp RSHFT
-&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &layer_quick_tab 3 SPACE  &homerow_retro_mods LEFT_SHIFT SPACE  &layer_hold_tap 6 4    &mkp LCLK          &layer_quick_tab 5 RALT  &homerow_retro_mods RIGHT_SHIFT SPACE  &layer_quick_tab 1 SPACE  &kp RALT  &kp DELETE
+&kp ESC     &kp N1        &kp N2    &kp N3                    &kp N4                                &kp N5                 &mmv MOVE_Y(-200)  &kp N6                   &kp N7                                 &kp N8                    &kp N9    &kp N0     &kp BACKSPACE
+&kp TAB     &kp Q         &kp W     &kp E                     &kp R                                 &kp T                  &mmv MOVE_Y(200)   &kp Y                    &kp U                                  &kp I                     &kp O     &kp P      &none
+&kp LCTRL   &kp A         &kp S     &kp D                     &kp F                                 &kp G                  &mmv MOVE_X(-200)  &kp H                    &kp J                                  &kp K                     &kp L     &kp SEMI   &kp APOS
+&kp LCTRL   &kp Z         &kp X     &kp C                     &kp V                                 &kp B                  &mmv MOVE_X(200)   &kp N                    &kp M                                  &kp COMMA                 &kp DOT   &kp SLASH  &kp RSHFT
+&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &layer_quick_tab 3 SPACE  &homerow_retro_mods LEFT_SHIFT SPACE  &layer_hold_tap 6 4    &mkp LCLK          &layer_quick_tab 5 RALT  &homerow_retro_mods RIGHT_SHIFT SPACE  &layer_quick_tab 1 SPACE  &kp RALT  &none
             >;
 
             sensor-bindings = <&knob_mouse_scroll>;

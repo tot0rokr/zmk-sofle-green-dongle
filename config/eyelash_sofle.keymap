@@ -144,14 +144,14 @@
         backspace_combo {
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35>;
-            layers = <0 2 4>;
+            layers = <0 2 4 6>;
             timeout-ms = <30>;
         };
 
         enter_combo {
             bindings = <&kp ENTER>;
             key-positions = <34 36>;
-            layers = <2 0 4>;
+            layers = <2 0 4 6>;
             timeout-ms = <30>;
         };
 
@@ -180,7 +180,7 @@
             bindings = <&kp DEL>;
             key-positions = <47 48>;
             timeout-ms = <30>;
-            layers = <0 2 4>;
+            layers = <0 2 4 6>;
         };
 
         delete_combo2 {

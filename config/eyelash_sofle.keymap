@@ -257,7 +257,7 @@
 
         LHomerowLayer {
             bindings = <
-&trans   &trans         &trans         &trans         &trans         &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp N6         &kp N7         &kp N8         &kp N9         &kp N0       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &kp LC(LA(Z))  &kp LC(LA(X))  &kp LC(LA(A))  &kp LA(LC(S))  &kp LC(Y)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB  &kp LGUI       &kp LCTRL      &kp LSHFT      &kp LALT       &kp TAB      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans         &trans         &trans         &trans         &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans

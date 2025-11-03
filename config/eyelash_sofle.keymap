@@ -47,15 +47,15 @@
         tap-ms = <100>;
     };
 
-    homerow_mods: homerow_mods {
+    homerow_tap_mods: homerow_tap_mods {
         compatible = "zmk,behavior-hold-tap";
-        label = "HOMEROW_MODS";
+        label = "HOMEROW_TAP_MODS";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <150>;
         flavor = "tap-preferred";
-        quick-tap-ms = <200>;
+        quick-tap-ms = <150>;
     };
 
     layer_quick_tab: layer_quick_tab {
@@ -112,16 +112,15 @@
         tapping-term-ms = <200>;
     };
 
-    homerow_retro_mods: homerow_retro_mods {
+    homerow_balance_mods: homerow_balance_mods {
         compatible = "zmk,behavior-hold-tap";
-        label = "HOMEROW_RETRO_MODS";
+        label = "HOMEROW_BALANCE_MODS";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "tap-preferred";
-        quick-tap-ms = <200>;
-        retro-tap;
+        tapping-term-ms = <150>;
+        flavor = "balanced";
+        quick-tap-ms = <150>;
     };
 
     behaviors {
@@ -206,11 +205,11 @@
 
         NormalLayer {
             bindings = <
-&kp ESC     &kp N1        &kp N2    &kp N3                                &kp N4                    &kp N5                 &mmv MOVE_Y(-200)  &kp N6                   &kp N7                    &kp N8                                 &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB     &kp Q         &kp W     &kp E                                 &kp R                     &kp T                  &mmv MOVE_Y(200)   &kp Y                    &kp U                     &kp I                                  &kp O    &kp P      &none
-&kp LCTRL   &kp A         &kp S     &kp D                                 &kp F                     &kp G                  &mmv MOVE_X(-200)  &kp H                    &kp J                     &kp K                                  &kp L    &kp SEMI   &kp APOS
-&kp LCTRL   &kp Z         &kp X     &kp C                                 &kp V                     &kp B                  &mmv MOVE_X(200)   &kp N                    &kp M                     &kp COMMA                              &kp DOT  &kp SLASH  &kp RSHFT
-&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &homerow_retro_mods LEFT_SHIFT SPACE  &layer_quick_tab 4 SPACE  &layer_hold_tap 6 1    &mkp LCLK          &layer_quick_tab 5 RALT  &layer_quick_tab 2 SPACE  &homerow_retro_mods RIGHT_SHIFT SPACE  &none    &none
+&kp ESC     &kp N1        &kp N2    &kp N3                                  &kp N4                    &kp N5                 &mmv MOVE_Y(-200)  &kp N6                   &kp N7                    &kp N8                                   &kp N9   &kp N0     &kp BACKSPACE
+&kp TAB     &kp Q         &kp W     &kp E                                   &kp R                     &kp T                  &mmv MOVE_Y(200)   &kp Y                    &kp U                     &kp I                                    &kp O    &kp P      &none
+&kp LCTRL   &kp A         &kp S     &kp D                                   &kp F                     &kp G                  &mmv MOVE_X(-200)  &kp H                    &kp J                     &kp K                                    &kp L    &kp SEMI   &kp APOS
+&kp LCTRL   &kp Z         &kp X     &kp C                                   &kp V                     &kp B                  &mmv MOVE_X(200)   &kp N                    &kp M                     &kp COMMA                                &kp DOT  &kp SLASH  &kp RSHFT
+&kp C_MUTE  &kp LEFT_WIN  &kp LALT  &homerow_balance_mods LEFT_SHIFT SPACE  &layer_quick_tab 4 SPACE  &layer_hold_tap 6 1    &mkp LCLK          &layer_quick_tab 5 RALT  &layer_quick_tab 2 SPACE  &homerow_balance_mods RIGHT_SHIFT SPACE  &none    &none
             >;
 
             sensor-bindings = <&knob_mouse_scroll>;
@@ -269,11 +268,11 @@
 
         RThumbLayer {
             bindings = <
-&none  &none                  &none                &none                  &none                  &none                     &msc SCRL_UP     &none                   &none                  &none                   &none                  &none                  &none
-&none  &homerow_mods EXCL N1  &homerow_mods AT N2  &homerow_mods HASH N3  &homerow_mods DLLR N4  &homerow_mods PRCNT N5    &msc SCRL_DOWN   &homerow_mods CARET N6  &homerow_mods AMPS N7  &homerow_mods ASTRK N8  &homerow_mods LPAR N9  &homerow_mods RPAR N0  &none
-&none  &none                  &none                &none                  &none                  &none                     &msc SCRL_LEFT   &kp LEFT                &kp DOWN               &kp UP                  &kp RIGHT              &kp INS                &none
-&none  &none                  &kp C_PREV           &kp C_PLAY_PAUSE       &kp C_NEXT             &none                     &msc SCRL_RIGHT  &kp HOME                &kp PG_DN              &kp PG_UP               &kp END                &kp CAPS               &none
-&none  &trans                 &trans               &trans                 &trans                 &trans                    &none            &trans                  &trans                 &trans                  &trans                 &trans
+&none  &none                      &none                    &none                      &none                      &none                         &msc SCRL_UP     &none                       &none                      &none                       &none                      &none                      &none
+&none  &homerow_tap_mods EXCL N1  &homerow_tap_mods AT N2  &homerow_tap_mods HASH N3  &homerow_tap_mods DLLR N4  &homerow_tap_mods PRCNT N5    &msc SCRL_DOWN   &homerow_tap_mods CARET N6  &homerow_tap_mods AMPS N7  &homerow_tap_mods ASTRK N8  &homerow_tap_mods LPAR N9  &homerow_tap_mods RPAR N0  &none
+&none  &none                      &none                    &none                      &none                      &none                         &msc SCRL_LEFT   &kp LEFT                    &kp DOWN                   &kp UP                      &kp RIGHT                  &kp INS                    &none
+&none  &none                      &kp C_PREV               &kp C_PLAY_PAUSE           &kp C_NEXT                 &none                         &msc SCRL_RIGHT  &kp HOME                    &kp PG_DN                  &kp PG_UP                   &kp END                    &kp CAPS                   &none
+&none  &trans                     &trans                   &trans                     &trans                     &trans                        &none            &trans                      &trans                     &trans                      &trans                     &trans
             >;
 
             display-name = "RThumbLayer";

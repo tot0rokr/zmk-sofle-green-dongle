@@ -383,7 +383,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - '&mkp MB4'
   - '&mkp MB5'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
@@ -515,8 +515,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -653,26 +653,3 @@ layers:
 combos:
 - p: [14, 28, 40, 24, 36, 50]
   k: '&soft_off'
-- p: [59, 60]
-  k: BluetoothLayer
-- p: [34, 35]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [NormalLayer, NormalLayer, JoystickLayer, LThumbLayer]
-- p: [34, 36]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [NormalLayer, NormalLayer, JoystickLayer, LThumbLayer]
-- p: [30, 29]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [NormalLayer, NormalLayer, JoystickLayer]
-- p: [30, 28]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [NormalLayer, NormalLayer, JoystickLayer]
-- p: [15, 16]
-  k: $$mdi:keyboard-esc$$
-  l: [NormalLayer, NormalLayer, JoystickLayer]
-- p: [47, 48]
-  k: $$mdi:backspace-reverse-outline$$
-  l: [NormalLayer, NormalLayer, JoystickLayer, LThumbLayer]
-- p: [42, 43]
-  k: $$mdi:backspace-reverse-outline$$
-  l: [NormalLayer, NormalLayer, JoystickLayer]

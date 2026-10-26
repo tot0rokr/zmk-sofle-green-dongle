@@ -14,7 +14,7 @@ manifest:
       revision: main 
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: f9be3ed9c08b35b1b86df24c0f04913f3b5e50f5  # pinned: last known-good main (2025-11-08, pre-Zephyr-4.1)
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
       remote: tokyo2006                          # <---

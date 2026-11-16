@@ -1,0 +1,2 @@
+/* Left half as split central (no dongle). Same hardware as peripheral_left. */
+#include "eyelash_sofle_peripheral_left.overlay"
